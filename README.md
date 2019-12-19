@@ -37,3 +37,7 @@ It pushes the URL of the Zoom meeting to your default browser, which I'm assumin
 Then it enters the tab key, and the space key to select the "Open Zoom Meetings" button.
 
 You can see the very, very simple source code [here](./startZoom.au3).
+
+# Related projects
+
+* This Zoom launcher which requires calendar integration: https://github.com/benbalter/zoom-launcher
