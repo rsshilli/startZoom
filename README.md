@@ -3,7 +3,7 @@ This is a very simple script to join a [Zoom](http://zoom.us) (https://zoom.us) 
 
 # Usage
 
-Download the latest binary from the [release](./startZoom/releases) page. Unzip it to your hard drive and run it:
+Download the latest binary from the [release](/rsshilli/startZoom/releases) page. Unzip it to your hard drive and run it:
 ```
 startZoom.exe
 ```
