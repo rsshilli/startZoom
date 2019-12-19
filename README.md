@@ -1,5 +1,5 @@
 # startZoom
-This is a very simple script to join a [Zoom](http://zoom.us) (https://zoom.us) conference.
+A very simple command line program (CLI) to join a [Zoom](http://zoom.us) (https://zoom.us) conference.
 
 # Usage
 
