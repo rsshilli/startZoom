@@ -3,10 +3,10 @@ $sleepTime = 5000 ; Time to sleep after sending the command to Chrome
 $meetingNum = "" ; Zoom meeting number
 
 
-$V_Arg = "Usage: zoom (--sleep <ms>) <Meeting number>" & @LF
+$V_Arg = "Usage: startZoom (--sleep <ms>) <Meeting number>" & @LF
 $V_Arg = $V_Arg & "    --sleep <ms>     - The number of ms to sleep for between opening the URL and sending the keys to get past the ""Open Zoom Meetings?"" popup.  Default: 5000 ms (5 seconds)" & @LF
 $V_Arg = $V_Arg & "    <Meeting number> - The zoom meeting number " & @LF
-$V_Arg = $V_Arg & "ex. zoom 1234567890" & @LF
+$V_Arg = $V_Arg & "ex. startZoom 1234567890" & @LF
 ; retrieve commandline parameters
 For $x = 1 to $CmdLine[0]
   Select
