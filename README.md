@@ -27,7 +27,7 @@ startZoom 1234554321
 ```
 
 # How to automate it
-See [here](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10) for a tutorial on how to use Windows Task Scheduler. It's pretty simple, if you've use cron or anything similar.
+See [here](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10) for a tutorial on how to use Windows Task Scheduler. It's pretty intuitive, if you've used cron or anything similar.
 
 Here's a screenshot to show you what to put in "The Action" field. 
 
