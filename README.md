@@ -40,4 +40,4 @@ You can see the very, very simple source code [here](./startZoom.au3).
 
 # Related projects
 
-* This Zoom launcher which requires calendar integration: https://github.com/benbalter/zoom-launcher
+* This Zoom launcher which is quite a bit more complicated and requires calendar integration: https://github.com/benbalter/zoom-launcher
