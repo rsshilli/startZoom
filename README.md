@@ -10,20 +10,24 @@ Download the latest binary from the [release](../../releases) page. Unzip it to 
 startZoom.exe
 ```
 
-You'll see the command-line arguments, which is just the meeting number and an optional parameter for how long to sleep after opening the URL in Chrome:
+You'll see the command-line arguments, which is just the meeting number and optional parameters:
 ```
 C:\projects\startZoom> startZoom.exe
-Usage: startZoom (--sleep <ms>) <Meeting number>
-    --sleep <ms>     - The number of ms to sleep for between opening the URL and sending the keys to get past the "Open Zoom Meetings?" popup.  Default: 5000 ms (5 seconds)
-    <Meeting number> - The zoom meeting number
-ex. startZoom 1234567890
+Usage: startZoom (--sleep <ms>) (--password <password>) <Meeting number>
+    --sleep <ms>         - The number of ms to sleep for between opening the URL and sending the keys to get past the "Open Zoom Meetings?" popup.  Default: 5000 ms (5 seconds)
+    --password <number>  - The URL password for the meeting (usually a very long string of characters)
+    <Meeting number>     - The zoom meeting number
+
+ex. startZoom 1234567890 --password ThisIstheTextThatAppearsAfterPWDInTheURL
 ```
 
-The meeting number can be gotten from the zoom website or from a URL sent for you to join a meeting.  For example, if you were asked to join https://zoom.us/j/1234554321 then the meeting number is the last part the URL: `1234554321`.
+The password is one in the URL **not** the password that's often only 6 digits long.
 
-So, to join Zoom meeting 1234554321, you'd run:
+## Example
+
+The meeting number and password can be gotten from a URL sent for you to join a meeting.  For example, if you were asked to join https://zoom.us/j/1234554321?pwd=ThisIsTheURLPassword then the meeting number is: `1234554321` and the password is `ThisIsTheURLPassword`. So, to join this Zoom meeting, you'd run:
 ```
-startZoom 1234554321
+startZoom 1234554321 --password ThisIsTheURLPassword
 ```
 
 # How to automate it
