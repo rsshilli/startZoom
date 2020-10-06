@@ -1,7 +1,7 @@
 
 $sleepTime = 5000 ; Time to sleep after sending the command to Chrome
 $meetingNum = "" ; Zoom meeting number
-$passCode = "" ; Zoom pass code
+$password = "" ; Zoom pass code
 
 
 $V_Arg = "Usage: startZoom (--sleep <ms>) (--password <password>) <Meeting number>" & @LF
